@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario Interactivo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Inventario Supermercado</h1>
+
+    <section class="card">
+
+        <h2>PRODUCTOS</h2>
+
+        <section class="form-grid">
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Ingrese el producto">
+
+            <label for="producto">Productos Disponibles:</label>
+
+            <select id="producto">
+                <option>aceite</option>
+                <option>arroz</option>
+                <option>frijoles</option>
+                <option>pasta</option>
+                <option>leche</option>
+                <option>huevos</option>
+                <option>harina</option>
+                <option>pan tajado</option>
+                <option>queso</option>
+                <option>cafe molido</option>
+                <option>azucar</option>
+                <option>sal</option>
+                <option>cereal</option>
+                <option>atun</option>
+                <option>salsa de tomate</option>
+                <option>mantequilla</option>
+                <option>yogur</option>
+                <option>lentejas</option>
+                <option>zardinas</option>
+                <option>agua</option>
+            </select>
+
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" id="cantidad" min="1">
+
+            <label for="precio">Precio Unitario:</label>
+            <input type="number" id="precio" min="0">
+
+            <button id="btnAgregar" class="btn-form">
+                Agregar Producto
+            </button>
+
+        </section>
+
+        <h2>Galería de Productos</h2>
+
+        <div class="galeria">
+            <img src="aceite.jpg" alt="Cuaderno">
+            <img src="arroz.jpg" alt="Lápiz">
+            <img src="frijol.jpg" alt="Borrador">
+            <img src="pasta.jpg" alt="Regla">
+            <img src="leche.jpg" alt="Marcador">
+            <img src="huevos.jpg" alt="Tijeras">
+            <img src="harina.jpg" alt="Pegante">
+            <img src="pan.jpg" alt="Sacapuntas">
+            <img src="queso.jpg" alt="Cartulina">
+            <img src="cafe.jpg" alt="Libreta">
+            <img src="aucar.jpg" alt="Agenda">
+            <img src="sal.jpg" alt="Calculadora">
+            <img src="cereal.jpg" alt="Corrector">
+            <img src="atun.jpg" alt="Memoria USB">
+            <img src="salsa.jpg" alt="Mouse">
+            <img src="mantequilla.jpg" alt="Cargador">
+            <img src="goyurt.jpg" alt="Audífonos">
+            <img src="lenteja.jpg" alt="Portaminas">
+            <img src="zar.jpg" alt="Papel Block">
+            <img src="agua.jpg" alt="Grapadora">
+        </div>
+
+    </section>
+
+    <section class="card">
+
+        <table id="tabla">
+
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                    <th>Total</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+
+            <tbody>
+            </tbody>
+
+        </table>
+
+        <section class="total" id="totalGeneral">
+            Total General: $0
+        </section>
+
+    </section>
+
+    <script src="java.js"></script>
+
+</body>
+
+</html>

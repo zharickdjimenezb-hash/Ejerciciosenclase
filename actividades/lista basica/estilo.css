@@ -1,0 +1,113 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #8e2de2, #4a00e0);
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: rgb(13, 10, 165);
+    color: black;
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+  }
+  
+  .container {
+    background: rgba(225, 255, 255, 0. 15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(77, 71, 139);
+    padding: 30px;
+  }
+  
+  .search {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  form {
+    display: flex;
+  }
+  
+  input {
+    padding: 15px 10px;
+    outline: none;
+    width: 400px;
+  }
+  
+  .li-container {
+    background-color: white;
+    width: 100%;
+    color: rgb(128, 34, 38);
+    margin-top: 20px;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+    margin-top: 15px;
+    display: flex;
+  }
+  
+  li p {
+    background: white;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .btn-delete {
+    margin-left: auto;
+    border: none;
+    background-color: #80c9ce;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 10%;
+    font-size: 1.2em;
+  }
+  
+  .btn-delete:hover {
+    cursor: pointer;
+    background-color: rgb(180, 29, 29);
+  }
+  
+  .btn-add {
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    font-family: fantasy;
+    background-color: rgb(30, 173, 173);
+    font-size: 1.4rem;
+    outline: none;
+  }
+  
+  .btn-add:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: rgb(50, 12, 112);
+  }
+  
+  .empty {
+    color: rgb(124, 30, 30);
+  }
